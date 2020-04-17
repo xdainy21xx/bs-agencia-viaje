@@ -62,3 +62,23 @@ section {
 .badge-primary{
     background-color:#8d7f4b !important ;
 }
+
+.bg-primary {
+    background-color: #8d7f4b!important;
+}
+
+.btn-secondary{
+    background-color: #ffffff !important;
+    color: #000;
+}
+
+.btn-secondary {
+    background-color: #ffffff !important;
+    color: #000 !important;
+    border-color: #ffffff !important;
+}
+.btn-secondary:hover{
+    color: #000 !important;
+}
+
+
