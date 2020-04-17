@@ -23,18 +23,42 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 30px;
     border-radius: 50px;
     min-width: 160px;
+    max-width: 170px;
 }
 
 .btn-primary {
-    background-color: #3f44c9;
+    background-color: #8d7f4b !important;
     color: #ffffff !important;
-    border: 1px solid #3f44c9;
+    border: 1px solid #8f814f !important;
 }
+
+
+.btn-primary:hover  {
+    color: #fff;
+    background-color: #af9e5f !important;
+    border-color: #af9e5f !important;
+}
+
+.text-primary {
+    color: #8d7f4b !important ;
+    text-decoration: none;
+}
+
+a.text-primary:focus, a.text-primary:hover {
+    color: #8d7f4b  !important;
+    text-decoration: none;
+}
+
+
 .logo{
-    color: #3f44c9 !important;
-    font-size: 20px;
+    min-width: 50px;
+    max-width: 60px;
 }
 
 section {
     padding: 100px 0;
+}
+
+.badge-primary{
+    background-color:#8d7f4b !important ;
 }
